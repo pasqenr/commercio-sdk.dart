@@ -18,7 +18,10 @@ dependencies:
   basic_utils: ^2.5.3
 
   # Crypto utils
-  sacco: ^0.1.4
+  sacco:
+    git:
+      url: https://github.com/pasqenr/sacco.dart
+      ref: master
   encrypt: ^4.0.1
   ed25519_hd_key: ^1.0.1
   pointycastle: ^1.0.1
